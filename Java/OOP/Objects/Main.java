@@ -1,10 +1,13 @@
 public class Main {
 
-	int x = 5;
+	 int x = 5;
 
 	public static void main(String[] args) {
 		Main myObj1 = new Main();
-		Main myObj2 - new Main();
+		Main myObj2 = new Main();
+
+		// myObj2.x = 25; varitiion for an example of an instance variable
+
 		System.out.println(myObj1.x);
 		System.out.println(myObj2.x);
 	}
