@@ -1,6 +1,6 @@
-## 🔐 Java Modifiers — Complete Breakdown
+## Java Modifiers — Complete Breakdown
 
-### 1️⃣ What Are Modifiers?
+### What Are Modifiers?
 
 **Modifiers** are keywords in Java that **change how something behaves or who can access it**.
 
@@ -15,7 +15,7 @@ They can be applied to:
 
 ---
 
-### 2️⃣ Two Types of Modifiers
+### Two Types of Modifiers
 
 Java modifiers are divided into **two main categories**:
 
@@ -32,7 +32,7 @@ Java modifiers are divided into **two main categories**:
 
 ---
 
-### 3️⃣ Why Access Modifiers Exist (Big Picture)
+### Why Access Modifiers Exist (Big Picture)
 
 Access modifiers exist to support:
 
@@ -46,7 +46,7 @@ Access modifiers prevent developers from accidentally breaking things.
 
 ---
 
-### 4️⃣ Access Modifiers Overview
+### Access Modifiers Overview
 
 There are **four** access levels in Java:
 
@@ -62,7 +62,7 @@ There are **four** access levels in Java:
 
 ---
 
-### 5️⃣ Access Modifiers for CLASSES
+### Access Modifiers for CLASSES
 
 #### Only TWO are allowed for classes:
 
@@ -100,13 +100,13 @@ class Engine {
 
 ---
 
-### 6️⃣ Access Modifiers for ATTRIBUTES, METHODS & CONSTRUCTORS
+### Access Modifiers for ATTRIBUTES, METHODS & CONSTRUCTORS
 
 These can use **all four modifiers**.
 
 ---
 
-### 7️⃣ `public` Modifier
+### `public` Modifier
 
 #### What it means
 
@@ -140,7 +140,7 @@ System.out.println(p.name); // ✅ Works
 
 ---
 
-### 8️⃣ `private` Modifier (VERY IMPORTANT)
+### `private` Modifier (VERY IMPORTANT)
 
 #### What it means
 
@@ -177,7 +177,7 @@ System.out.println(p.age); // ❌ Compilation error
 
 ---
 
-### 9️⃣ `default` (Package-Private)
+### `default` (Package-Private)
 
 #### What it means
 
@@ -208,7 +208,7 @@ class Logger {
 
 ---
 
-### 🔟 `protected` Modifier
+### `protected` Modifier
 
 #### What it means
 
@@ -248,7 +248,7 @@ class Dog extends Animal {
 
 ---
 
-### 1️⃣1️⃣ Public vs Private — Your Example Explained
+### Public vs Private — Your Example Explained
 
 #### Code:
 
@@ -279,7 +279,7 @@ Age is sensitive data and should not be freely modified.
 
 ---
 
-### 1️⃣2️⃣ Proper Way (Encapsulation Pattern)
+### Proper Way (Encapsulation Pattern)
 
 ```java
 class Person {
@@ -306,7 +306,7 @@ class Person {
 
 ---
 
-### 1️⃣3️⃣ Comparison Summary Table
+### Comparison Summary Table
 
 | Modifier  | Same Class | Same Package | Subclass | Everywhere |
 | --------- | ---------- | ------------ | -------- | ---------- |
@@ -317,7 +317,7 @@ class Person {
 
 ---
 
-### 1️⃣4️⃣ Real-World Use Case Example
+### Real-World Use Case Example
 
 #### Banking System
 
@@ -341,10 +341,22 @@ class BankAccount {
 
 ---
 
-### 1️⃣5️⃣ Key Takeaways (Memorize This)
+### Key Takeaways (Memorize This)
 
 ✅ Use **private** for fields
 ✅ Use **public** for APIs
 ✅ Use **protected** for inheritance
 ✅ Use **default** for internal packages
 
+💡 **Good Java design is mostly about controlling access.**
+
+---
+
+If you want next:
+
+* Non-access modifiers (`static`, `final`, `abstract`)
+* Exam-style questions
+* UML visibility mapping (`+ - # ~`)
+* Real project architecture examples
+
+Just say the word.
