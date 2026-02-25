@@ -1,0 +1,29 @@
+Student
+-------------------------
+- studentId: String
+- name: String
+- major: String
+- gpa: double
+-------------------------
++ Student(studentId: String, name: String, major: String, gpa: double)
+- validateGpa(): void
++ getID(): String
++ getName(): String
++ getMajor(): String
++ getGPA(): double
++ changeMajor(newMajor: String): void
++ updateGPA(newGpa: double): void
++ toString(): String
+
+BankAccount
+-------------------------
+- accountNumber: String
+- ownerName: String
+- balance: double
+-------------------------
++ BankAccount(accountNumber: String, ownerName: String)
++ BankAccount(accountNumber: String, ownerName: String, initialBalance: double)
++ getBalance(): double
++ deposit(amount: double): void
++ withdraw(amount: double): boolean
++ toString(): String
